@@ -1,3 +1,4 @@
+
 logs/
 npm-debug.log
 node_modules/
@@ -6,4 +7,3 @@ coverage/
 run/
 .DS_Store
 *.swp
-package-lock.json

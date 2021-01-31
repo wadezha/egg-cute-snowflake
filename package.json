@@ -1,16 +1,10 @@
 {
   "name": "egg-cute-snowflake",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "cute snowflake for egg",
   "eggPlugin": {
     "name": "snowflake"
   },
-  "files": [
-    "index.d.ts",
-    "app.js",
-    "lib",
-    "config"
-  ],
   "main": "app.js",
   "types": "index.d.ts",
   "keywords": [
