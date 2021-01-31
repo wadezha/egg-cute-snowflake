@@ -42,37 +42,39 @@ exports.snowflake = {
 
 ## Configuration
 
-``` JAVA 64bit
+``` 
+JAVA 64bit
 
-  config.snowflake = {
-    app: true,
-    agent: true,
-    client: {
-      twepoch: 1480166465631,
-      dataCenterIdBits: 5,
-      workerIdBits: 5,
-      sequenceBits: 12,
-    },
-  };
+config.snowflake = {
+  app: true,
+  agent: true,
+  client: {
+    twepoch: 1480166465631,
+    dataCenterIdBits: 5,
+    workerIdBits: 5,
+    sequenceBits: 12,
+  },
+};
 
-  Return a 64bit string, for example '553211427826962432'
+Return a 64bit string, for example '553211427826962432'
   
 ```
 
-``` JS 53bit
+```
+JS 53bit
 
-  config.snowflake = {
-    app: true,
-    agent: true,
-    client: {
-      twepoch: 1480166465631,
-      dataCenterIdBits: 3,
-      workerIdBits: 3,
-      sequenceBits: 6,
-    },
-  };
+config.snowflake = {
+  app: true,
+  agent: true,
+  client: {
+    twepoch: 1480166465631,
+    dataCenterIdBits: 3,
+    workerIdBits: 3,
+    sequenceBits: 6,
+  },
+};
 
-  Return a 53bit number, for example '540245822818368'
+Return a 53bit number, for example '540245822818368'
 
 ```
 
