@@ -11,6 +11,8 @@ interface ClusterOptions {
 }
 
 interface EggSnowflakeOptions {
+  app?: boolean;
+  agent?: boolean;
   client?: ClusterOptions;
   clients?: Record<string, ClusterOptions>;
 }

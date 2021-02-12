@@ -17,6 +17,8 @@ module.exports = () => {
 
   // JS
   // config.snowflake = {
+  //   app: true,
+  //   agent: true,
   //   client: {
   //     twepoch: 1480166465631,
   //     dataCenterIdBits: 3,
