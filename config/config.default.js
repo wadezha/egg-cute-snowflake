@@ -7,12 +7,12 @@ module.exports = () => {
   config.snowflake = {
     app: true,
     agent: true,
-    client: {
-      twepoch: 1480166465631,
-      dataCenterIdBits: 5,
-      workerIdBits: 5,
-      sequenceBits: 12,
-    },
+    // client: {
+    //   twepoch: 1480166465631,
+    //   dataCenterIdBits: 5,
+    //   workerIdBits: 5,
+    //   sequenceBits: 12,
+    // },
   };
 
   // JS

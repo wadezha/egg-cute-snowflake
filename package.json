@@ -1,6 +1,6 @@
 {
   "name": "egg-cute-snowflake",
-  "version": "2.1.5",
+  "version": "2.1.7",
   "description": "cute snowflake for egg",
   "eggPlugin": {
     "name": "snowflake"
@@ -20,11 +20,26 @@
     "big.js": "^6.0.2"
   },
   "devDependencies": {
+    "autod": "^3.0.1",
+    "egg": "latest-1",
+    "egg-bin": "^4.7.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.17.1",
+    "eslint": "^4.19.1",
+    "eslint-config-egg": "^7.0.0",
+    "supertest": "^3.1.0",
+    "utility": "^1.13.1"
   },
   "engines": {
     "node": ">=8.0.0"
   },
   "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
   },
   "repository": {
     "type": "git",
