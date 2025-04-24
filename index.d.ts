@@ -1,6 +1,6 @@
 
 export declare class Snowflake {
-    nextId(): Promise<string>;
+  nextId(): Promise<string>;
 }
 
 interface ClusterOptions {
